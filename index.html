@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Micro-Break Pods — Reset. Refocus. Return.</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">◎</span>
+        <span class="logo-text">Micro-Break Pods</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#persona">Who It's For</a></li>
+        <li><a href="#demo">Try the Pod</a></li>
+        <li><a href="#business">Business Model</a></li>
+      </ul>
+      <button class="nav-cta" onclick="document.getElementById('demo').scrollIntoView({behavior:'smooth'})">Try the Demo</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-blob b1"></div>
+      <div class="hero-blob b2"></div>
+      <div class="hero-blob b3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">IIM Kozhikode · Innovation & Design Thinking</div>
+      <h1 class="hero-title">5 minutes to reset<br>before your next class.</h1>
+      <p class="hero-sub">Micro-Break Pods are semi-enclosed recovery units designed for high-pressure academic environments. Private, structured, and placed right where you need them.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="document.getElementById('demo').scrollIntoView({behavior:'smooth'})">Experience the Pod</button>
+        <button class="btn-ghost" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">Learn More</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5–10</span><span class="stat-label">minute sessions</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">₹8K</span><span class="stat-label">pilot build cost</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">0</span><span class="stat-label">direct campus competitors</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="pod-illustration">
+        <div class="pod-outer">
+          <div class="pod-inner">
+            <div class="pod-screen">
+              <div class="pod-timer-display">05:00</div>
+              <div class="pod-status">Ready</div>
+            </div>
+            <div class="pod-seat"></div>
+            <div class="pod-light"></div>
+          </div>
+        </div>
+        <div class="pod-shadow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM STRIP -->
+  <section id="problem">
+    <div class="container">
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="prob-icon">🏃</div>
+          <h3>No time to go back to the hostel</h3>
+          <p>A 10-minute break becomes a 40-minute trip. Students skip recovery entirely.</p>
+        </div>
+        <div class="problem-card">
+          <div class="prob-icon">📱</div>
+          <h3>Social media doesn't restore focus</h3>
+          <p>Scrolling provides distraction, not recovery. Mental fatigue builds up unchecked.</p>
+        </div>
+        <div class="problem-card">
+          <div class="prob-icon">🔊</div>
+          <h3>Campus spaces are noisy & social</h3>
+          <p>Corridors, canteens, and lounges offer no privacy, calm, or structured downtime.</p>
+        </div>
+        <div class="problem-card">
+          <div class="prob-icon">😓</div>
+          <h3>Guilt stops students from resting</h3>
+          <p>Without a defined end time, breaks feel indulgent. A timer makes recovery legitimate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="container">
+      <div class="section-label">What's Inside the Pod</div>
+      <h2 class="section-title">Every feature earns its place.</h2>
+      <p class="section-sub">Designed around real student behavior — not an idealised version of wellness.</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feat-icon-wrap teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>5 & 10 Minute Timer</h3>
+          <p>A defined session length removes guilt and legitimises the break. Walk in, set your time, walk out refreshed.</p>
+          <div class="feat-tag">Addresses: guilt & open-ended breaks</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon-wrap sage">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a10 10 0 0 0 0 20"/><path d="M2 12h20"/></svg>
+          </div>
+          <h3>Acoustic Separation</h3>
+          <p>Semi-enclosed walls and sound-absorbing foam panels create a private, quiet pocket near academic blocks.</p>
+          <div class="feat-tag">Addresses: noise & social exposure</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon-wrap amber">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+          </div>
+          <h3>Warm Ambient Lighting</h3>
+          <p>Soft, adjustable light reduces sensory overload and creates a calming atmosphere distinct from harsh study areas.</p>
+          <div class="feat-tag">Addresses: sensory fatigue</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon-wrap purple">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h3>Optional Breathing Audio</h3>
+          <p>Guided breathing prompts or nature soundscapes help students shift from a stressed to a calm mental state faster.</p>
+          <div class="feat-tag">Addresses: mental decompression</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon-wrap coral">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Ergonomic Seating</h3>
+          <p>A comfortable chair angled for relaxation — not a desk chair. The posture itself signals the body to switch off.</p>
+          <div class="feat-tag">Addresses: physical comfort</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon-wrap blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12H2l10-10 10 10h-3"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>
+          </div>
+          <h3>Charging Port</h3>
+          <p>A USB-A and USB-C outlet. Students don't have to choose between recovery and keeping their devices alive.</p>
+          <div class="feat-tag">Addresses: practical convenience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONA -->
+  <section id="persona">
+    <div class="container">
+      <div class="section-label">Target Persona</div>
+      <h2 class="section-title">Meet Aarav.</h2>
+
+      <div class="persona-layout">
+        <div class="persona-card">
+          <div class="persona-avatar">AN</div>
+          <div class="persona-info">
+            <h3>Aarav Nair</h3>
+            <p class="persona-role">24 · MBA Student · IIM Kozhikode</p>
+          </div>
+          <div class="persona-quote">"I need to be back in class in 8 minutes. There's nowhere to just… breathe."</div>
+
+          <div class="persona-section">
+            <div class="ps-label">A typical day</div>
+            <div class="timeline">
+              <div class="tl-item"><span class="tl-time">8:30</span><span class="tl-event">Morning class</span></div>
+              <div class="tl-item"><span class="tl-time">10:00</span><span class="tl-event">Group project meeting</span></div>
+              <div class="tl-item"><span class="tl-time">11:30</span><span class="tl-event">Another lecture</span></div>
+              <div class="tl-item tl-pod"><span class="tl-time">1:15</span><span class="tl-event">→ Micro-Break Pod (10 min)</span></div>
+              <div class="tl-item"><span class="tl-time">1:30</span><span class="tl-event">Club committee meeting</span></div>
+              <div class="tl-item"><span class="tl-time">3:00</span><span class="tl-event">Placement prep session</span></div>
+              <div class="tl-item"><span class="tl-time">6:00</span><span class="tl-event">Case submission deadline</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="persona-insights">
+          <div class="insight-block pain">
+            <div class="ib-label">Pain Points</div>
+            <ul>
+              <li>No private space near academic blocks to decompress</li>
+              <li>Feels guilty taking long breaks — peers might judge</li>
+              <li>Cafeteria and corridors are noisy and socially charged</li>
+              <li>Fatigue reduces concentration and patience by afternoon</li>
+            </ul>
+          </div>
+          <div class="insight-block coping">
+            <div class="ib-label">Current Coping Behaviour</div>
+            <ul>
+              <li>Walks aimlessly between buildings</li>
+              <li>Scrolls social media in corridors (no real recovery)</li>
+              <li>Drinks excessive coffee to push through fatigue</li>
+              <li>Returns to hostel only when exhaustion is extreme</li>
+            </ul>
+          </div>
+          <div class="insight-block values">
+            <div class="ib-label">What Aarav Actually Needs</div>
+            <ul>
+              <li>A fast, private reset close to his next commitment</li>
+              <li>Structure that makes the break feel productive, not indulgent</li>
+              <li>Sensory separation from campus noise and social pressure</li>
+              <li>To return to work with more focus than before</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POD DEMO -->
+  <section id="demo">
+    <div class="container">
+      <div class="section-label">Interactive Demo</div>
+      <h2 class="section-title">Step inside the Pod.</h2>
+      <p class="section-sub">Choose your session, set the mood, and experience a simulated Micro-Break.</p>
+
+      <div class="demo-wrapper">
+        <!-- Left: Controls -->
+        <div class="demo-controls">
+          <div class="control-group" id="ctrl-duration">
+            <div class="cg-label">Session Length</div>
+            <div class="duration-btns">
+              <button class="dur-btn active" data-mins="5">5 min</button>
+              <button class="dur-btn" data-mins="10">10 min</button>
+            </div>
+          </div>
+
+          <div class="control-group" id="ctrl-lighting">
+            <div class="cg-label">Lighting Mood</div>
+            <div class="lighting-btns">
+              <button class="light-btn active" data-mode="warm">
+                <span class="light-dot warm-dot"></span> Warm
+              </button>
+              <button class="light-btn" data-mode="cool">
+                <span class="light-dot cool-dot"></span> Cool
+              </button>
+              <button class="light-btn" data-mode="dim">
+                <span class="light-dot dim-dot"></span> Dim
+              </button>
+            </div>
+          </div>
+
+          <div class="control-group" id="ctrl-audio">
+            <div class="cg-label">Ambient Sound</div>
+            <div class="audio-btns">
+              <button class="audio-btn active" data-audio="none">Silence</button>
+              <button class="audio-btn" data-audio="rain">Rain</button>
+              <button class="audio-btn" data-audio="forest">Forest</button>
+              <button class="audio-btn" data-audio="breath">Breathing Guide</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="cg-label">Breathing Guide</div>
+            <div class="breath-toggle-wrap">
+              <label class="toggle-label">
+                <input type="checkbox" id="breath-guide-toggle" />
+                <span class="toggle-track"><span class="toggle-thumb"></span></span>
+                <span class="toggle-text">Visual breathing guide</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Pod Simulation -->
+        <div class="pod-sim" id="pod-sim">
+          <div class="sim-bg" id="sim-bg"></div>
+
+          <!-- Idle State -->
+          <div class="sim-state" id="state-idle">
+            <div class="sim-icon">◎</div>
+            <p class="sim-label">Your pod is ready.</p>
+            <button class="sim-start-btn" id="start-btn">Begin Session</button>
+          </div>
+
+          <!-- Active State -->
+          <div class="sim-state hidden" id="state-active">
+            <div class="sim-timer-ring">
+              <svg class="timer-ring-svg" viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52" />
+                <circle class="ring-progress" id="ring-progress" cx="60" cy="60" r="52" />
+              </svg>
+              <div class="sim-timer-text" id="sim-timer">05:00</div>
+            </div>
+
+            <div class="breath-guide hidden" id="breath-guide">
+              <div class="breath-circle" id="breath-circle"></div>
+              <div class="breath-text" id="breath-text">Breathe in…</div>
+            </div>
+
+            <div class="audio-label-display" id="audio-label"></div>
+
+            <button class="sim-stop-btn" id="stop-btn">End Session</button>
+          </div>
+
+          <!-- Complete State -->
+          <div class="sim-state hidden" id="state-complete">
+            <div class="sim-complete-icon">✓</div>
+            <h3 class="sim-complete-title">Session complete.</h3>
+            <p class="sim-complete-sub">You've reset. Now return with focus.</p>
+            <button class="sim-start-btn" id="restart-btn">Take Another Break</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETITOR LANDSCAPE -->
+  <section id="competitors">
+    <div class="container">
+      <div class="section-label">Market Landscape</div>
+      <h2 class="section-title">Nothing else quite fits.</h2>
+      <p class="section-sub">Existing options either take too long, lack privacy, or cost too much for campus deployment.</p>
+
+      <div class="comp-table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Alternative</th>
+              <th>Privacy</th>
+              <th>Speed</th>
+              <th>Cost for Campus</th>
+              <th>Structured Recovery</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Hostel Room</strong></td>
+              <td class="c-yes">✓ High</td>
+              <td class="c-no">✗ Too far</td>
+              <td class="c-mid">— Existing</td>
+              <td class="c-no">✗ No</td>
+            </tr>
+            <tr>
+              <td><strong>Corridor / Canteen</strong></td>
+              <td class="c-no">✗ None</td>
+              <td class="c-yes">✓ Immediate</td>
+              <td class="c-yes">✓ Free</td>
+              <td class="c-no">✗ No</td>
+            </tr>
+            <tr>
+              <td><strong>Meditation App</strong></td>
+              <td class="c-mid">— User-dependent</td>
+              <td class="c-yes">✓ Instant</td>
+              <td class="c-yes">✓ Low</td>
+              <td class="c-mid">— No space</td>
+            </tr>
+            <tr>
+              <td><strong>Premium Nap Pod</strong></td>
+              <td class="c-yes">✓ High</td>
+              <td class="c-yes">✓ Fast</td>
+              <td class="c-no">✗ Very costly</td>
+              <td class="c-yes">✓ Yes</td>
+            </tr>
+            <tr class="comp-winner">
+              <td><strong>Micro-Break Pod ◎</strong></td>
+              <td class="c-yes">✓ Semi-enclosed</td>
+              <td class="c-yes">✓ On-route</td>
+              <td class="c-yes">✓ Low cost</td>
+              <td class="c-yes">✓ Timer-guided</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSINESS MODEL -->
+  <section id="business">
+    <div class="container">
+      <div class="section-label">Business Model</div>
+      <h2 class="section-title">Built to scale from campus to corporate.</h2>
+
+      <div class="bmc-grid">
+        <div class="bmc-card partnerships">
+          <div class="bmc-card-label">Key Partnerships</div>
+          <ul>
+            <li>Campus administration & student affairs</li>
+            <li>Furniture & acoustic suppliers</li>
+            <li>Electricians / fabricators</li>
+            <li>Corporate facility partners (Phase 2)</li>
+          </ul>
+        </div>
+
+        <div class="bmc-card activities">
+          <div class="bmc-card-label">Key Activities</div>
+          <ul>
+            <li>User research & design iteration</li>
+            <li>Pod fabrication & prototyping</li>
+            <li>Campus installation & maintenance</li>
+            <li>Feedback collection & improvement</li>
+          </ul>
+        </div>
+
+        <div class="bmc-card value highlight">
+          <div class="bmc-card-label">Value Proposition</div>
+          <p>A short, private, calming space that helps users reset in 5–10 minutes, reduce mental fatigue, and return to work with better focus.</p>
+        </div>
+
+        <div class="bmc-card relationships">
+          <div class="bmc-card-label">Customer Relationships</div>
+          <ul>
+            <li>Institution-led adoption</li>
+            <li>On-site signage & onboarding</li>
+            <li>Feedback loop & usage nudges</li>
+          </ul>
+        </div>
+
+        <div class="bmc-card segments">
+          <div class="bmc-card-label">Customer Segments</div>
+          <p><strong>Primary:</strong> MBA / university students with high workload</p>
+          <p><strong>Secondary:</strong> Corporate employees, coworking users, library / airport users</p>
+        </div>
+
+        <div class="bmc-card resources">
+          <div class="bmc-card-label">Key Resources</div>
+          <ul>
+            <li>Modular pod design</li>
+            <li>Seating, lights, timer hardware</li>
+            <li>Campus location access</li>
+            <li>Usage & feedback data</li>
+          </ul>
+        </div>
+
+        <div class="bmc-card channels">
+          <div class="bmc-card-label">Channels</div>
+          <ul>
+            <li>Campus pilot program</li>
+            <li>Admin approvals & wellness campaigns</li>
+            <li>Corporate outreach (Phase 2)</li>
+          </ul>
+        </div>
+
+        <div class="bmc-card costs">
+          <div class="bmc-card-label">Cost Structure</div>
+          <ul>
+            <li>Pod materials & fabrication</li>
+            <li>Lighting / timer / audio setup</li>
+            <li>Installation & upkeep</li>
+            <li>Pilot testing & improvements</li>
+            <li>Marketing to institutions</li>
+          </ul>
+        </div>
+
+        <div class="bmc-card revenue">
+          <div class="bmc-card-label">Revenue Streams</div>
+          <ul>
+            <li>Institutional pod sale</li>
+            <li>Lease / rental model</li>
+            <li>AMC / maintenance contracts</li>
+            <li>Multi-pod campus packages</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Financials -->
+      <div class="financials">
+        <h3 class="fin-title">Illustrative Financials</h3>
+        <div class="fin-cards">
+          <div class="fin-card">
+            <div class="fin-label">Pilot Prototype</div>
+            <div class="fin-amount">₹8,000 – ₹15,000</div>
+            <div class="fin-note">Low-fidelity build for testing & iteration</div>
+          </div>
+          <div class="fin-card">
+            <div class="fin-label">Commercial Pod</div>
+            <div class="fin-amount">₹25,000 – ₹60,000</div>
+            <div class="fin-note">Per unit, depending on finish & acoustics</div>
+          </div>
+          <div class="fin-card">
+            <div class="fin-label">Revenue Model</div>
+            <div class="fin-amount">B2B</div>
+            <div class="fin-note">Sale, lease, or annual maintenance contract</div>
+          </div>
+          <div class="fin-card">
+            <div class="fin-label">Initial Market</div>
+            <div class="fin-amount">Higher Ed</div>
+            <div class="fin-note">Premium management, engineering & design institutes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon">◎</span>
+        <span>Micro-Break Pods</span>
+      </div>
+      <p class="footer-sub">A student project from IIM Kozhikode · Innovation & Design Thinking</p>
+      <p class="footer-tiny">Prototype built for academic demonstration purposes.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
